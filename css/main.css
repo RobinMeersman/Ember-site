@@ -62,5 +62,26 @@ body {
 }
 
 #main-content {
-    height: 180vh;
+    height: 90vh;
+    background: url("../imgs/background.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    height: 90vh;
+}
+
+.text-wrapper {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.center-text {
+    text-align: center;
+    color: white;
+    font-size: 200px;
+    font-family: Roboto, sans-serif;
 }
